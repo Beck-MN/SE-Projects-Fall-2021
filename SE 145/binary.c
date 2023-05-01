@@ -10,7 +10,7 @@ void printNum(int R[],int count);
 		int userNum;
 		int Q;
 		int R[MAX];
-		int count;
+		int count = 0;
 		int i = 0;
 		
 		
