@@ -20,7 +20,7 @@ int main() {
 	printf("\nY or N: ");
 	scanf("%c",&startGame);
 	
-	while(startGame == 'Y') {
+	while(startGame == 'Y' || startGame == 'y') {
 		tries += 1;
 		D4 = rand() % 4;
 		printf("D4 = %d\n",D4 + 1);
